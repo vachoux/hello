@@ -14,6 +14,6 @@ int main() {
 	string first_name;
 	cin >> first_name;
 	cout << "Bonjour " << first_name
-	     << ", bienvenue dans le monde de C++!!" << endl;
+	     << ", bien du plaisir avec C++!!" << endl;
 	return 0;
 }

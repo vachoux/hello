@@ -7,13 +7,15 @@
 
 #include <iostream>
 #include <string>
+
+#include "message.h"
+
 using namespace std;
 
 int main() {
 	cout << "Entrez votre prénom: " << endl;
 	string first_name;
 	cin >> first_name;
-	cout << "Bonjour " << first_name
-	     << ", bien du plaisir avec C++!!" << endl;
+	welcome(first_name);
 	return 0;
 }

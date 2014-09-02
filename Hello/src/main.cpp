@@ -13,7 +13,7 @@
 using namespace std;
 
 int main() {
-	cout << "Entrez votre prénom: " << endl;
+	cout << "Entrez votre nom: " << endl;
 	string first_name;
 	cin >> first_name;
 	welcome(first_name);
